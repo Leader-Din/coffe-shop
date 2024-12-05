@@ -5,8 +5,207 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffe shop</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     
+    <!-- sidebar -->
+
+    <div class="sidebar">
+
+        <!-- logo -->
+
+        <h1>Coffe Shop</h1>
+
+        <!-- list of menu -->
+
+        <div class="sidebar-menu">
+            <a href="#"><i class="fa-solid fa-house"></i>Home</a>
+            <a href="#"><i class="fa-solid fa-money-bill-transfer"></i>Bills</a>
+            <a href="#"><i class="fa-solid fa-wallet"></i>Wallet</a>
+            <a href="#"><i class="fa-regular fa-bell"></i>Natification</a>
+            <a href="#"><i class="fa-solid fa-address-card"></i>Contact Us</a>
+            <a href="#"><i class="fa-solid fa-gear"></i>Setting</a>
+        </div>
+
+        <!-- logout -->
+
+        <div class="sidebar-logout">
+            <a href="#"><i class="fa-solid fa-right-from-bracket"></i>Logout</a>
+        </div>
+
+    </div>
+
+ <!-- main -->
+
+    <div class="main">
+
+        <div class="main-navbar">
+
+            <!-- menu when apper on mobile verson -->
+            <i class="fa-solid fa-bars", id="fa-bar"></i>
+
+            <!-- searchbar -->
+
+            <div class="search">
+                <input type="text" placeholder="What are food or drink do you want ?" name="" id="">
+                <button class="search-btn">Search</button>
+            </div>
+
+            <!-- profile icon on left side of navbar -->
+
+            <div class="profile">
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="#"><i class="fa-solid fa-user"></i></a>
+            </div>
+
+        </div>
+
+        <!-- main hightlight -->
+
+        <div class="main-hightlight">
+
+            <!-- title section and arrow -->
+
+            <div class="main-header">
+                <h2 class="main-title">Recommendations</h2>
+
+                <div class="main-arrow">
+                    <i class="fa-solid fa-circle-arrow-left"></i>
+                    <i class="fa-solid fa-circle-arrow-right"></i>
+                </div>
+
+
+            </div>
+
+            <!-- hight menu -->
+
+            <div class="hightlight-wrapper">
+
+                <div class="hightlight-card">
+                    <img src="images/f1sd.jpg" alt="">
+                    <div class="hightlight-dec">
+                        <h4>Fresh salad</h4>
+                        <p>$12.00</p>
+                    </div>
+                </div>
+
+
+                <div class="hightlight-card">
+                    <img src="images/c4.jpg" alt="">
+                    <div class="hightlight-dec">
+                        <h4>Coffee</h4>
+                        <p>$12.00</p>
+                    </div>
+                </div>
+
+                <div class="hightlight-card">
+                    <img src="images/c11.jpg" alt="">
+                    <div class="hightlight-dec">
+                        <h4>Drink</h4>
+                        <p>$12.00</p>
+                    </div>
+                </div>
+
+                <div class="hightlight-card">
+                    <img src="images/i3.jpg" alt="">
+                    <div class="hightlight-dec">
+                        <h4>Ice cream</h4>
+                        <p>$12.00</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <!-- main menu/order  -->
+
+        <div class="main-menus">
+
+            <!-- filter section -->
+
+            <div class="main-filter">
+                <div>
+                    <h2 class="main-title">Menu <br> Category</h2>
+                    <div class="main-arrow">
+                        <i class="fa-solid fa-circle-arrow-left"></i>
+                        <i class="fa-solid fa-circle-arrow-right"></i>
+                    </div>
+                </div>
+
+                <div class="filter-wrapper">
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <i class="fa-solid fa-utensils"></i>
+                        </div>
+                        <p>All Menu</p>
+                    </div>
+
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <i class="fa-solid fa-burger"></i>
+                        </div>
+                        <p>Burger</p>
+                    </div>
+
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <i class="fa-solid fa-pizza-slice"></i>
+                        </div>
+                        <p>Pizza</p>
+                    </div>
+
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <i class="fa-solid fa-wine-bottle"></i>
+                        </div>
+                        <p>Wine</p>
+                    </div>
+
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <i class="fa-solid fa-ice-cream"></i>
+                        </div>
+                        <p>Ice-cream</p>
+                    </div>
+
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <i class="fa-solid fa-mug-saucer"></i>
+                        </div>
+                        <p>Coffee</p>
+                    </div>
+
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <i class="fa-solid fa-fish"></i>
+                        </div>
+                        <p>Sea food</p>
+                    </div>
+
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <i class="fa-brands fa-nutritionix"></i>
+                        </div>
+                        <p>Healthy Food</p>
+                    </div>
+
+
+                </div>
+                
+            </div>
+
+            <hr class="divider">
+
+            <!-- list of food menu -->
+        </div>
+
+
+    </div>
+
 </body>
 </html>
